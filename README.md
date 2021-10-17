@@ -3,6 +3,14 @@ A python script that produces a CSV ready dump of house properties for further m
 The script also calculates distance to popular transit locations as well as finds the walk score.
 
 Example use:
+
+```
+$ python3 app.py "123 Street, City, ST ZIP"
+
+Built,Lot,Price,Bed,Bth,Sqft,Cost (Sqft),Taxes, AIR, METRA, BUS, walkscore
+1963,6999,378000,4,2.0,1340,229,7149.06,27,7,11,29
+```
+
 ![](pics/google-sheets.png)
 
 # Prerequisites
